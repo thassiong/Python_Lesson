@@ -1,0 +1,35 @@
+========AULA 07 ========= OPERADORES ARITIMÉTICOS
+#AULA COMENTADA CURSO EM VIDEO EM PYTHON POR GUSTAVO GUANABARA
+#COMENTÁRIOS DAS AULAS APÓS 2 ANOS DE RESOLUÇÃO, VOCÊ PODERÁ ENCONTRAR COMENTÁRIOS BÁSICOS SOBRE COMO VEJO OS SCRIPTS
+#EM GERAL O SÍMBOLO (=) É ENTENDIDO COMO RECEBE E (==) COMO "IGUAL".
+#N1 = 5 + 2 == ### ASSIM A VARIÁVEL N1 RECEBE O VALOR ATRIBUIDO A ELA E APÓS AS OPERAÇÕES ESSA VARIÁVEL ASSUME
+#O RESULTADO DA OPERAÇÃO.
+#N2 = 5 - 2 ==
+#N3 = 5 * 2 ==
+#N4 = 5 / 2 ==
+#N5 = 5 ** 2 ==
+#N6 = 5 // 2 ==
+#N7 = 5 % 2 ==
+
+# OPERADORES ARITIMÉTICOS (**) SIGNIFICA POTÊNCIA / (//) SIGNIFICA  DIVISÃO INTEIRA / (%) RESTO DA DIVISÃO /
+# (==) RESULTADO - SIGNIFICA IGUAL
+# ORDEM DE PRECEDENCIA - COMO O PY EXECUTA A FUNÇÃO
+
+# 1° PARENTESES;
+# 2° POTÊNCIA
+# 3° * / // %
+# 4° + -
+print('======== EXERCÍCIO DA AULA 07 ========= OPERADORES ARITIMÉTICOS')
+nome = input('Qual é o seu nome?')
+print('Prazer em te conhecer {:=^20}!'.format(nome))
+
+N1 = int(input('Um valor:'))
+N2 = int(input('Outro valor:'))
+S = N1 + N2
+S1 = N1 * N2
+S2 = N1 / N2
+S3 = N1 // N2
+S4 = N1 ** N2
+print('A soma vale {}, \n A multiplicação vale {} \n  divisão vale {:.2f}'.format(S, S1, S2), end=' ')
+print('Divisão inteira vale {} \n a potência vale {:.2f}'.format(S3, S4))
+# PRINT('A \n B') O PYTHON IMPRIME A LETRA A E ABAIXO A LETRA B. \n desce a linha.
